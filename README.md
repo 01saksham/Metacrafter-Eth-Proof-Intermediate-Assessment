@@ -1,4 +1,4 @@
-###Error Handling In Solidity (Module-1)###
+###Error Handling In Solidity (Module-1)
 The contract includes a function called "checkThreshold" that takes two unsigned integer parameters, "number" and "threshold", and returns a boolean value indicating if the number is greater than the threshold.
 
 The error handling process in the "checkThreshold" function is as follows:

@@ -1,4 +1,4 @@
-###Error Handling In Solidity (Module-1)
+#Error Handling In Solidity (Module-1)
 The contract includes a function called "checkThreshold" that takes two unsigned integer parameters, "number" and "threshold", and returns a boolean value indicating if the number is greater than the threshold.
 
 The error handling process in the "checkThreshold" function is as follows:
@@ -13,22 +13,21 @@ Lastly, if none of the above conditions are met, it means that the number is les
 
 The "checkThreshold" function demonstrates how require, assert, and revert statements can be used to handle different scenarios and ensure the validity of inputs and contract execution.
 
-##Prerequisites:##
+##Prerequisites:
 Make sure you have the following software installed on your machine:
+1.Solidity compiler version 0.8.7 or compatible
+2.Ethereum development environment (e.g., Remix, Truffle, Hardhat, etc.)
 
-Solidity compiler version 0.8.7 or compatible
-Ethereum development environment (e.g., Remix, Truffle, Hardhat, etc.)
+##Deployment:
+1.To deploy the "GreaterThanCheck" contract on the Ethereum network, follow these steps:
 
-##Deployment:##
-To deploy the "GreaterThanCheck" contract on the Ethereum network, follow these steps:
+2.Compile the Solidity code using a Solidity compiler.
 
-Compile the Solidity code using a Solidity compiler.
+3.Choose your preferred deployment method (Remix, Truffle, etc.) and provide the necessary configuration details such as the network and gas limit.
 
-Choose your preferred deployment method (Remix, Truffle, etc.) and provide the necessary configuration details such as the network and gas limit.
-
-Deploy the contract to the desired Ethereum network using your chosen deployment method.
+4.Deploy the contract to the desired Ethereum network using your chosen deployment method.
 
 Once the contract is deployed, you can interact with it by calling the "checkThreshold" function with appropriate parameters to check if a number is greater than a threshold.
 
-##License:##
+##License:
 The code is released under the MIT License, which permits you to use, modify, and distribute it according to the terms of the license.

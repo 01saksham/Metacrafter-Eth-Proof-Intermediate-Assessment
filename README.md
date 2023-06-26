@@ -16,6 +16,7 @@ The "checkThreshold" function demonstrates how require, assert, and revert state
 ## Prerequisites:
 Make sure you have the following software installed on your machine:
 1.Solidity compiler version 0.8.7 or compatible
+
 2.Ethereum development environment (e.g., Remix, Truffle, Hardhat, etc.)
 
 ## Deployment:

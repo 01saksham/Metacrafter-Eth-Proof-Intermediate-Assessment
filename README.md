@@ -21,15 +21,17 @@ Make sure you have the following software installed on your machine:
 2.Ethereum development environment (e.g., Remix, Truffle, Hardhat, etc.)
 
 ## Deployment:
-1.To deploy the "GreaterThanCheck" contract on the Ethereum network, follow these steps:
+1.Set up your Ethereum development environment.
 
-2.Compile the Solidity code using a Solidity compiler.
+2.Compile the Solidity code using a compatible compiler.
 
-3.Choose your preferred deployment method (Remix, Truffle, etc.) and provide the necessary configuration details such as the network and gas limit.
+3.Configure the deployment settings, including gas limit and network parameters.
 
-4.Deploy the contract to the desired Ethereum network using your chosen deployment method.
+4.Select the desired network for deployment (e.g., local development network, test network, mainnet).
 
-Once the contract is deployed, you can interact with it by calling the "checkThreshold" function with appropriate parameters to check if a number is greater than a threshold.
+5.Deploy the contract to the chosen network using your preferred deployment method.
+
+6.Once deployed, interact with the contract by calling its functions and test its functionality.
 
 ## License:
 The code is released under the MIT License, which permits you to use, modify, and distribute it according to the terms of the license.

@@ -11,7 +11,8 @@ To provide an additional layer of validation, an "assert" statement is placed af
 
 The "castVote" function demonstrates how require, assert, and revert statements are used for error handling in the voting contract, preventing duplicate votes, enforcing voting limits, and maintaining the contract's integrity.
 
-**More on require, assert, revert**
+### More on require, assert, revert:
+
 require: The require statement is used to validate certain conditions before proceeding with the execution of a function. It takes a condition as the first argument and an optional error message as the second argument. If the condition evaluates to false, the execution of the function is immediately halted, and any changes made to the state are reverted. An error message can be provided to indicate the reason for the failure. The require statement is typically used for input validation and to ensure certain conditions are met before executing further code.
 
 assert: The assert statement is used to check for conditions that should never evaluate to false. It is typically used to validate internal consistency or invariants of the contract. If the condition provided to assert evaluates to false, it signifies a critical error in the code, and the execution is halted. Unlike require, assert does not allow for recovery or error messages. The purpose of assert is to catch logical errors during development and testing.
